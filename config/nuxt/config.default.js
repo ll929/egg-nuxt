@@ -46,6 +46,6 @@ module.exports = appInfo => {
     },
     dev: (appInfo.env === 'local'),
     rootDir: path.join(appInfo.baseDir),
-    srcDir: path.join(appInfo.baseDir, './app/nuxt'),
+    srcDir: path.join(appInfo.baseDir, './nuxt'),
   };
 };
